@@ -1,0 +1,34 @@
+{
+    "name": "CustomPM",
+    "maps": [
+        {
+            "name": "Vehicle Movement",
+            "id": "f4d3c543-66fc-4889-91d3-ec07d44d7ab3",
+            "actions": [
+                {
+                    "name": "Driving",
+                    "type": "Button",
+                    "id": "66ef3577-90d4-475b-8f4e-ef58d1ba6e9b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0db5162-42a5-4a5b-abeb-879596e97055",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Driving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
